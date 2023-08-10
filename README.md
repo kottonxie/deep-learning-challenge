@@ -22,17 +22,17 @@ Results: Using bulleted lists and images to support your answers, address the fo
 
 **4. How many neurons, layers, and activation functions did you select for your neural network model, and why?**
 - Originally, the two-hidden-layer model had a neuron number of units of 80 with activation of sigmoid for layer 1 and 20 units for layer 2 and an activation of relu. Plus, an output layer with a neuron unit 20 with a linear activation. This led to a total of 5,161 params and a loss rate of 56.0%, and an accuracy rate of 72.5%.
-![Original Score](Resources/Model1.png)
+![Original Score](Resource/Model1.png)
 
 **5. Were you able to achieve the target model performance?**
 - The goal for the target model performance was between 70% to 90%, with a specific percentage of 80% (the middle).
 
 **6. What steps did you take in your attempts to increase model performance?**
 - Optimization 1: Adding another hidden layer with a "swish" activation & a neuron unit of 20. Unfortunately, that led to a loss rate of 822.4% and an accuracy rate of 46.7%.
-![Optimization Score 1](Resources/Model2.png)
+![Optimization Score 1](Resource/Model2.png)
 
 - Optimization 2: Adjust the number of neurons with the two-hidden-layer model. Changing layer 1 to a neuron unit of 90 & layer 2 to a neuron unit of 40. Checking the param of the model, it increased the total param amount to 7,641. These changes led to a loss rate of 56.6% and an accuracy rate of 72.6%.
-![Optimization Score 2](Resources/Model3.png)
+![Optimization Score 2](Resource/Model3.png)
 
 - Optimization 3: Added a "relu" third hidden layer with a neuron unit of 5, Thee results were a loss rate of 56.3% and an accuracy rate of 72.6%.
-![Optimization Score 3](Resources/Model4.png)
+![Optimization Score 3](Resource/Model4.png)
