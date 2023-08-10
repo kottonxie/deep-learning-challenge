@@ -3,7 +3,8 @@
 For this part of the assignment, you’ll write a report on the performance of the deep learning model you created for Alphabet Soup.
 
 The report should contain the following:
-Overview of the analysis: Explain the purpose of this analysis.
+**Overview of the analysis: Explain the purpose of this analysis.**
+-  Analyzing the performance of the deep learning model created for Alphabet Soup. The goal is to create a model with high accuracy!
 
 Results: Using bulleted lists and images to support your answers, address the following questions:
 
